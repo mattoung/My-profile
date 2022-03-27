@@ -1,0 +1,110 @@
+body {
+	background-color: #FFE4B5;
+	background-image: url(images/991927.jpg);
+	background-size: 1500px 520px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+h1	{
+	font-family: sans-serif;
+	color:	yellow;
+}
+.firstblock {
+	background:white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 20px 0px;
+}
+.container	{
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 700px)	{
+	.firstblock	{
+		width: 500px;
+	}
+}
+@media (max-width: 500px)	{
+	.firstblock	{
+		width: 400px;
+	}
+}
+@media (max-width: 400px)	{
+	.firstblock	{
+		width: 300px;
+	}
+}
+@media (max-width: 300px)	{
+	.firstblock	{
+		width: 200px;
+	}
+}
+
+.card-about {
+	width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: white;
+}
+.left {
+	float: left;
+	width: 100px
+}
+.right {
+	float: right;
+	width: 150px;
+}
+.btn-blue {
+	background-color: #007FFF;
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+#btn-blue:hover {
+	background-color: #0000FF;
+	color: white;
+}
+.inline-style {
+	list-style: none;
+	padding-left: 0px;
+}
+.inline-style li {
+	display: inline;
+	padding: 10px;
+}
+.inline-style i {
+	font-size: 50px
+}
+.inline-style i:hover {
+	font-size: 50px
+	color: blue;
+}
+#intro {
+	background: none;
+	font-family: "Helvetica", sans-serif;
+	color: lightgreen;
+}
+#intro p {
+	margin-bottom: 40px;
+}
+.inline-style a {
+	text-decoration: none;
+	height: 150px;
+    width: 100%;
+    font-size: 14px;
+    color: #007FFF;
+    margin: 0 0 0 0;
+    padding: 0; 
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+    position: relative;
+    font-family: Helvitica, sans-serif;
+}
+#AFC {
+	margin-top: 10px;
+}
+
